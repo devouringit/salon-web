@@ -4,8 +4,8 @@
     "theme_color": "#ff0185",
     "background_color": "#f490c5",
     "display": "standalone",
-    "scope": "/",
-    "start_url": "/",
+    "scope": "/makeup-by-ritika-tyagi-4/kalyaninagar/home",
+    "start_url": "/makeup-by-ritika-tyagi-4/kalyaninagar/home",
     "icons": [
         {
             "src": "\/android-icon-36x36.png",
