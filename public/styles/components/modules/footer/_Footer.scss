@@ -1,0 +1,64 @@
+.footer-wrap {
+  color: white;
+  padding: 14px 14px 14px 25px;
+  background-image: url(../../../../assets/images/footer/bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .padding-top-bottom {
+    padding: 14px 0px;
+  }
+
+  .getInTouch {
+    font-size: 15pt;
+    margin: 10px 0;
+    width: auto;
+    display: inline-block;
+  }
+
+  .information-wrap {
+    display: grid;
+    grid-template-columns: auto 5fr;
+    align-items: center;
+
+    .containt {
+      padding: 0 5px 0 14px;
+      text-align: left;
+      font-family: 'poppins-regular';
+      font-size: 11pt;
+    }
+
+    .right-align {
+      float: right;
+      padding-right: 10px;
+    }
+
+    .gap {
+      padding-right: 20px;
+    }
+  }
+
+  .social-icon {
+    text-align: right;
+    width: auto;
+    display: inline-block;
+    float: right;
+    margin: 10px 0;
+
+    img {
+      padding-right: 12px;
+      width: 85%;
+    }
+  }
+}
+
+.copyright-wrp {
+  background-color: #3c3d41;
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+  transform: translateY(-1px);
+  font-family: 'poppins-light';
+  font-size: 10pt;
+}

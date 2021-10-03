@@ -1,0 +1,38 @@
+.gender-wrap {
+  padding: 15px 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // .gender-modal-title {
+  //   padding: 25px 20px 5px;
+  // }
+
+  .genderIcon {
+    width: 24%;
+    display: inline-block;
+    margin: 0 4%;
+
+    button {
+      width: 100%;
+      padding: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .gender-txt {
+      text-align: center;
+      padding-top: 10px;
+    }
+  }
+
+}
+
+.gender-modal-title {
+  flex: 0 0 auto;
+  margin: 0;
+  text-align: center;
+  padding: 25px 24px 15px !important;
+}

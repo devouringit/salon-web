@@ -1,0 +1,50 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/common';
+
+//pages styling
+@import 'pages/Inactive_store';
+
+//components styling
+@import 'components/elements/Icon/Icon';
+@import 'components/elements/imageSlider/imageSlider';
+@import 'components/layouts/Default/Default';
+
+// modules styling
+@import 'components/modules/Header/Header';
+@import 'components/modules/circularGrid/circularGrid';
+@import 'components/modules/horizontalProductCard/horizontalProductCard';
+@import 'components/modules/horizontalSquareGrid/horizontalSquareGrid';
+@import 'components/modules/squareGrid/squareGrid';
+@import 'components/modules/topScrolleingNavigation/topScrolleingNavigation';
+@import 'components/modules/verticalListing/verticalListing';
+@import 'components/modules/genderModal/genderModal';
+@import 'components/modules/userRegistration/userRegistration';
+@import 'components/modules/loader/Loader';
+@import 'components/modules/stickyCart/StickyCart';
+@import 'components/modules/productsWithCategory/ProductsWithCategory';
+@import 'components/modules/confirmationModal/confirmationModal';
+@import 'components/modules/pdpModal/pdpModal';
+@import 'components/modules/footer/Footer';
+
+// templates styling
+@import 'components/templates/Home/Home';
+@import 'components/templates/productPdp/productPdp';
+@import 'components/templates/categories/categories';
+@import 'components/templates/categories/VerticalCategoryPage.scss';
+@import 'components/templates/productListing/productListing';
+@import 'components/templates/serviceListing/serviceListing';
+@import 'components/templates/servicePdp/servicePdp';
+@import 'components/templates/staffPdp/staffPdp';
+@import 'components/templates/cartPage/CartPage';
+@import 'components/templates/imageGalleryModal/imageGalleryModal';
+@import 'components/templates/feedback/feedback';
+@import 'components/templates/orderConfirmation/orderConfirmation';
+@import 'components/templates/addressModal/AddressModal';
+
+//slider gallery css
+@import '~react-image-gallery/styles/scss/image-gallery.scss'; //styles of image-gallery
+@import './components/nprogress'; //styles of nprogress

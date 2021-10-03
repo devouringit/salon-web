@@ -1,0 +1,159 @@
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.o-h {
+  overflow: hidden !important;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.pd-t-20 {
+  padding-top: 20px;
+}
+
+.box-shadow {
+  // box-shadow: 0px 3px 9px #777777;
+  box-shadow: 0px 5px 10px #c1bbbb;
+}
+
+.herobanner img {
+  max-height: 256px;
+}
+
+.midbanner img {
+  max-height: 135px;
+}
+
+.packageoffer img {
+  max-height: 267px;
+}
+
+/* banner slider css ends */
+
+.common-section-title {
+  // text-align: left;
+  text-align: center;
+  width: 100%;
+  float: left;
+  font-size: 15pt;
+  font-weight: 500;
+  margin: 5px 0 5px;
+}
+
+.common-section-title::after {
+  width: 200px;
+  height: 10px;
+}
+
+.common-grey-boder {
+  width: 100%;
+  float: left;
+  height: 10px;
+  background-color: #f1f2f4;
+}
+
+.common-10height {
+  width: 100%;
+  float: left;
+  height: 10px;
+}
+
+.fullwidth {
+  width: 100%;
+  float: left;
+}
+
+/* submenu css starts */
+.cat-navbar-cover {
+  width: 100%;
+  float: left;
+  background-color: #ebebeb;
+  padding: 15px 0px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  /* margin-bottom: 30px; */
+}
+
+.cat-navbar-inner {
+  display: inline-block;
+  list-style: none;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.cat-nav-link {
+  width: auto;
+  display: inline-block;
+  margin: 0px 8px;
+  padding: 0px 9px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #aaaaaa;
+  position: relative;
+  transition: all ease-out 0.3s;
+}
+
+.cat-nav-link span {
+  opacity: 0;
+  display: inline-block;
+  position: absolute;
+  width: calc(100% - 18px);
+  height: 2px;
+  bottom: -16px;
+  left: 9px;
+  background-color: var(--primary-color);
+  transition: all ease-out 0.3s;
+}
+
+.cat-nav-link:hover,
+.cat-nav-link.active {
+  color: var(--primary-color);
+  transition: all ease-out 0.3s;
+}
+
+.cat-nav-link:hover span,
+.cat-nav-link.active span {
+  opacity: 1;
+  transition: all ease-out 0.3s;
+}
+
+/* submenu css ends */
+
+.common-15height {
+  width: 100%;
+  float: left;
+  height: 15px;
+}
+
+.mandatory {
+  color: $color-error;
+}
+
+.image-gallery-left-nav {
+  left: 5px !important;
+  opacity: 0.7 !important;
+}
+
+.image-gallery-right-nav {
+  right: 5px !important;
+  opacity: 0.7 !important;
+}
+.rupee-small {
+  font-family: fantasy;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  color: #000000 !important;
+  display: inline-block !important;
+  margin-right: unset !important;
+  text-decoration: unset !important;
+}
+.disabled-text {
+  color: #c2c2c2 !important;
+}

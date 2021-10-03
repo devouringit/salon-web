@@ -1,0 +1,39 @@
+.gallery-modal-wrap {
+  .gallery-wrap {
+    width: 100%;
+  }
+}
+
+// class for fullscreen
+
+.fullscreen {
+  .imageSlider {
+    width: 430px;
+    max-height: 480px;
+  }
+}
+
+.MuiDialog-paperWidthSm {
+  min-width: 100%;
+  max-height: calc(100% - 64px);
+}
+
+.image-gallery-icon svg {
+  color: #fff;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.image-gallery-icon svg polyline {
+  color: #fff;
+}
+
+.image-gallery-left-nav,
+.image-gallery-right-nav {
+  padding: 5px 6px 2px 6px !important;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--primary-color) !important;
+  border-radius: 50%;
+  filter: drop-shadow(0 0px 1px #1a1a1a) !important;
+}

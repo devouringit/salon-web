@@ -1,0 +1,168 @@
+.user-reg-modal-wrap {
+  width: 100%;
+
+  .error {
+    color: #ffc107;
+    font-size: 11px;
+    font-weight: 100;
+    padding-top: 3px;
+    padding-left: 2px;
+    letter-spacing: 0.5px;
+  }
+
+  .simple-dialog-title {
+  }
+
+  .modal-close {
+    width: auto;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .user-reg-wrap {
+    .input-wrap {
+    }
+  }
+
+  .wellcome-wrap {
+    .user-well-wrap {
+    }
+  }
+}
+
+.registrationcover {
+  width: 100%;
+  float: left;
+  // background-image: url(/assets/images/register_popup_bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 30px 25px;
+  background-size: 100% 100%;
+}
+
+.MuiDialog-paperWidthSm {
+  max-width: 90% !important;
+  min-width: 90% !important;
+}
+
+#simple-dialog-title {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.registrationcover h2 {
+  width: 100%;
+  float: left;
+  text-align: left !important;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 190px;
+}
+
+.registrationcover .input-wrap {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.registrationcover .input-wrap input.input {
+  width: 172px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 1px 10px 0;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.registrationcover .input-wrap .invalidInput {
+  border: 2px solid red !important;
+}
+
+.registrationcover .MuiFormControlLabel-root,
+.registrationcover .MuiRadio-root {
+  color: white !important;
+}
+
+.registrationcover .MuiButton-root:hover {
+  background-color: var(--primary-color) !important;
+}
+
+.user-regIcon button {
+  width: 172px;
+  height: 35px;
+  background-color: var(--primary-color);
+  margin-top: 10px;
+}
+
+.user-regIcon button span.MuiButton-label {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.user-skip .MuiButton-text {
+  padding: 0;
+  width: 100%;
+  float: left;
+  margin-top: 15px;
+}
+
+.user-skip .MuiButton-text span.MuiButton-label {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.wellcome-wrap {
+  width: 100%;
+  height: 220px;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+.wellcome-wrap .modal-close {
+  text-align: right;
+}
+
+.wellcome-wrap .modal-close img {
+  width: 32px;
+  margin: 5px 5px 0 0;
+}
+
+.wellcome-wrap .user-name {
+  width: 100%;
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  padding: 140px 10px 10px 45px;
+  color: var(--primary-color);
+}
+
+.login-heading {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+
+  h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 190px;
+    letter-spacing: 0.5px;
+  }
+}

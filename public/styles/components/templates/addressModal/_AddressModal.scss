@@ -1,0 +1,83 @@
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.body-text {
+  padding: 10px 0 20px;
+}
+
+.address-toggle-wrap {
+  padding: 19px;
+  font-size: 18px;
+  font-weight: 600;
+
+  .tab {
+    width: auto;
+    display: inline-block;
+    margin-right: 16px;
+    text-align: center;
+    padding: 0 5px;
+
+    &.active {
+      color: var(--primary-color);
+      transition: all ease-out 0.3s;
+      border-bottom: 1px solid;
+    }
+  }
+}
+
+.address-modal {
+  padding: 20px 20px 25px;
+  text-align: center;
+  position: relative;
+
+  .input-wrap {
+    width: 100%;
+    float: left;
+    margin: 30px 0;
+
+    .input {
+      width: 240px;
+      height: 35px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      padding: 1px 10px 0;
+      font-size: 14px;
+      box-sizing: border-box;
+      border: 1px solid gray;
+      margin: 10px 0;
+    }
+
+    .invalidInput {
+      border: 2px solid red !important;
+    }
+  }
+
+  .save-add-btn {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    background-color: var(--primary-color);
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 1px;
+    button {
+      color: #ffffff;
+    }
+  }
+}

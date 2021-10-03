@@ -1,0 +1,169 @@
+// @import 'app.scss';
+
+.mainheaderblock {
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+  height: 75px;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  z-index: 7;
+  box-shadow: 0 8px 6px -6px #99999963;
+}
+
+.logo {
+  // width: 150px;
+  width: auto;
+  height: 55px;
+  float: left;
+  margin: 7px 0 0 5px;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+
+.callheader {
+  width: auto;
+  height: auto;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.selmalefemale {
+  width: fit-content !important;
+  height: auto;
+  margin-left: 14px;
+  // transform: translateX(8px);
+  margin-top: 0;
+  transition: all ease-out 0.3s;
+}
+
+.selmalefemale img {
+  width: 100%;
+  height: 100%;
+  transition: all ease-out 0.3s;
+}
+
+.selmalefemale button.MuiButton-text {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  min-width: auto;
+  transition: all ease-out 0.3s;
+}
+
+.femalebg {
+  width: 100%;
+  float: left;
+  display: flex;
+  margin: 20px 0;
+  // background-color: #f8d8e5;
+}
+
+.malebg {
+  width: 100%;
+  display: flex;
+  float: left;
+  margin: 20px 0;
+  // background-color: #d0e1fd;
+}
+
+.hamburger {
+  width: 50px;
+  height: auto;
+  float: right;
+  text-align: center;
+  margin-top: 15px;
+
+  .MuiSvgIcon-root {
+    font-size: 36px;
+  }
+}
+
+.hamburger span.material-icons.MuiIcon-root {
+  font-size: 41px;
+}
+
+.hamburger .MuiButton-text {
+  padding: 0px 0px;
+  min-width: auto;
+  margin: 0 0 0 0;
+  line-height: normal;
+}
+
+.drawclose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+.drawgraphic {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.drawgraphic img {
+  display: inline-block;
+  width: 60%;
+}
+
+.drawname {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #3f3d55;
+}
+
+.drawnumber {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: #3f3d55;
+}
+
+.drawmenu {
+  width: 100%;
+  float: left;
+  padding: 0 25px;
+  text-align: center;
+}
+
+.drawmenu > div {
+  width: 100%;
+}
+
+.drawmenu .MuiListItem-button .MuiListItemText-root span {
+  color: #7b7b7b;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  padding: 12px 15px 12px;
+}
+
+.MuiDrawer-paperAnchorRight {
+  height: auto !important;
+  padding-bottom: 40px;
+  border-radius: 0 0 70px 0px;
+}
+
+.drawmenu .MuiListItem-button:hover .MuiListItemText-root span {
+  color: var(--primary-color);
+}
